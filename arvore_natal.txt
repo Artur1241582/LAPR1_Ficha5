@@ -1,13 +1,20 @@
-﻿Algoritimo arvore_natal
-ED:i, n, j inteiro
+﻿Algoritmo arvore
+ED: i, n, j inteiro
 
-//arvore
-Inicio
-	Escrever("Qual o comprimento da arvore")
-	ler(n)
-	Para i <- 1 até n passo 1 fazer
-		Para j <- 0 até i passo 1 fazer
-				Escrever("#")
-		Fim Para 
-	Fim Para
+Inicio 
+	Escrever("Qual o comprimento da Árvore:")
+	Ler(n)
+	para i <- n até 1 passo 1 fazer
+		para j <- 0 até i passo 1 fazer
+			Se j = 0 então
+				Escrever ("%")
+			FimSe
+			Se j = i - 1 então
+				Escrever ("%")
+			FimSe
+			senão
+				Escrever ("%")
+			FimSenão
+		FimPara	
+	FimPara
 Fim
