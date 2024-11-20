@@ -1,0 +1,12 @@
+Algoritimo arvore
+ED:i, n, j inteiro
+
+Inicio
+	Escrever("Qual o comprimento da arvore")
+	ler(n)
+	Para i <- 1 até n passo 1 fazer
+		Para j <- 0 até i passo 1 fazer
+				Escrever("#")
+		Fim Para 
+	Fim Para
+Fim
