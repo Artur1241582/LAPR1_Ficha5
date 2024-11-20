@@ -1,6 +1,7 @@
 ﻿Algoritimo arvore_natal
 ED:i, n, j inteiro
 
+//arvore
 Inicio
 	Escrever("Qual o comprimento da arvore")
 	ler(n)
